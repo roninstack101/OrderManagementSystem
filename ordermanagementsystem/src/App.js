@@ -1,9 +1,11 @@
 import {BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import './App.css';
-import Products from './Component/product';
-import Login from './Component/login';
-import Warning from './Component/warning';
-// import "./App.css"
+
+import Consumer from './Component/Consumer/consumer';
+import Customer from './Component/Customer/customer';
+import ShopList from './Reusable/Const/ApiExample';
+import ConstCustomer from './Reusable/Const/constcustomer';
+
 function App() {
   return (
     <> 
@@ -11,16 +13,7 @@ function App() {
 
    
     <div className="App">
-    <Products/>
-
-{/* 
-     <Routes>
-      
-    <Route path='/'  element={<Login/>} />
-   <Route path='/warning'  element={<Warning/>}/> 
-    
-    </Routes> */}
-      
+      <Customer/>
     </div>
     </Router>
     </>

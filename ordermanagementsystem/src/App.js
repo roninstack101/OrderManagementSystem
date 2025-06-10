@@ -6,6 +6,8 @@ import Customer from './Component/Customer/customer';
 import ShopList from './Reusable/Const/ApiExample';
 import ConstCustomer from './Reusable/Const/constcustomer';
 
+import Header from "./Reusable/Const/header";
+import SwitchBtn from "./Reusable/Const/switchbtn";
 function App() {
   return (
     <> 
@@ -13,7 +15,9 @@ function App() {
 
    
     <div className="App">
-      <Customer/>
+      <Header />
+      <SwitchBtn/>
+      
     </div>
     </Router>
     </>

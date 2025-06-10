@@ -1,11 +1,7 @@
-import ConstCustomer from "../../Reusable/Const/constcustomer";
-
 const Customer = () => {
-  return (
-    <>
-      <ConstCustomer />
-    </>
-  );
-};
+    return (
+        <></>
+    );
+}
 
 export default Customer;

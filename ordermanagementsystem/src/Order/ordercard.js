@@ -182,7 +182,8 @@ export default function Ordercards({ data }) {
               fontWeight={"bold"}
               borderRadius={"17px"}
               height={"7vh"}
-              backgroundColor={" #2dff2d"}
+              backgroundColor={"rgb(37, 209, 77)"}
+              // color={"rgb(108, 237, 138)"}
               onClick={handleAccept}
             >
               Accept
@@ -194,7 +195,8 @@ export default function Ordercards({ data }) {
                 fontWeight={"bold"}
                 borderRadius={"17px"}
                 height={"7vh"}
-                backgroundColor={"red"}
+                backgroundColor={"#dc3545"}
+                // color={"#dc3545"}
                 disabled
               >
                 Reject
@@ -220,7 +222,7 @@ export default function Ordercards({ data }) {
         <div
           style={{
             overflow: "hidden",
-            transition: "max-height 0.2s ease-in-out",
+            transition: "max-height 0.1s ease-in-out",
             maxHeight: Expanded ? "200px" : "0px",
           }}
         >
